@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo && gulp"
+command = "hugo && gulp build"
 
 [context.production.environment]
 HUGO_VERSION = "0.40.1"
@@ -28,4 +28,3 @@ HUGO_VERSION = "0.40.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
