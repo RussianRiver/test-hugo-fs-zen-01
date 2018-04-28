@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm install -g gulp-cli && gulp && hugo"
+command = "gulp --gulpfile themes\zen\gulpfile.js --cwd \themes\zen\ && hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.40.1"
