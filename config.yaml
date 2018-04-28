@@ -1,0 +1,64 @@
+---
+#title: "Дружеские посиделки. Сайт про Дзадзэн"
+baseURL: "https://example.org/"
+theme: "zen"
+languageCode: "en-en"
+defaultContentLanguage: "ru"
+metaDataFormat: "yaml"
+
+contact: "friendly.sitting.ru@gmail.com"
+
+languages:
+  ru:
+    weight: 1
+    title: "Дружеские посиделки. Сайт про Дзадзэн"
+    params:
+      LanguageName: "Русский"
+      languageCode: "ru-ru"
+  en:
+    title: "Friendly sitting. Wedsite about ZaZen"
+    weight: 2
+    params:
+      LanguageName: "English"
+      languageCode: "en-us"
+
+pluralizelisttitles: false
+removePathAccents: true
+paginate: 10
+paginatePath: "page"
+rssLimit: 20
+author:
+  name: "Your Name"
+  url: "https://example.org/somepage"
+  avatar: "path/to/some-image.jpg"
+
+outputs:
+  home: ["HTML","RSS", "JSON"]
+  section: ["HTML","RSS", "JSON"]
+
+#permalinks:
+#post = "/:year/:month/:urltitle/"
+#post: "/blog/:year/:slug/"
+
+params:
+  cacheBustCSS: false
+  cacheBustJS: false
+  contact: "info@example.org"
+  #copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  description: "The zen theme for Hugo example site."
+  dateformat: "2 January, 2006"
+  favicon: "icon-64.png"
+  feedlinks: false           # Show feed links in the footer.
+  footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
+  icon: "apple-touch-icon-180.png"
+  image: "xdeb-org.jpg"
+  imageMaxWidth: 400
+  jquery: true
+  languageDir: "ltr"
+  logo: false
+  mobileMenu: true
+  poweredby: false
+  search: false
+  searchSize: 20
+  sidebar: true
+  submitted: true

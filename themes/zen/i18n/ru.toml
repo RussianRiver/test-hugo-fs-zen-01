@@ -1,0 +1,83 @@
+[menu_title]
+other = "Меню сайта"
+
+[menu_home]
+other = "Главная страница"
+
+[menu_mobile]
+other = "Меню"
+
+[pager_next]
+other = "Следуюая"
+
+[pager_prev]
+other = "Предыдущая"
+
+[taxo_tags]
+other = "Тэги"
+
+[search_placeholder]
+other = "Поиск"
+
+[search_title]
+other = "Чего хотите найти?"
+
+[string_at]
+other = "at"
+
+[string_by]
+other = ",автор:"
+
+[string_follow]
+other = "follow"
+
+[string_in]
+other = "in"
+
+[string_on]
+other = "on"
+
+[string_recent_content]
+other = "Новое"
+
+[contact_js]
+other = "Вам надо включить Javascript, иначе эта штука не заработает((."
+
+[contact_submitted]
+other = "Ваше сообщение было отправлено."
+
+[contact_error]
+other = "Ошибка, сообщение не было отправлено."
+
+[contact_name]
+other = "Имя"
+
+[contact_name_placeholder]
+other = "Ваше имя"
+
+[contact_mail]
+other = "E-mail"
+
+[contact_mail_placeholder]
+other = "адрес вашей электронной почты"
+
+[contact_subject]
+other = "Тема"
+
+[contact_subject_placeholder]
+other = "Тема вкратце"
+
+[contact_message]
+other = "Сообщение"
+
+[contact_message_placeholder]
+other = "The messages goes here…"
+
+[contact_submit]
+other = "Отправить сообщение"
+
+[contact_honypot]
+other = "Пропустите если вы человек"
+
+[lang_select_title]
+other = "Выбор языка"
