@@ -1,6 +1,7 @@
 ---
 title: "Zazen in Moscow"
 date: 2018-04-22T00:41:21+03:00
+lastmod: 2018-04-25T00:41:21+03:00
 slug: "zazen-in-moscow"
 ---
 
@@ -101,5 +102,3 @@ FB: [facebook.com/zen.msk/](https://www.facebook.com/zen.msk)
 [Группа ВКонтакте](http://vkontakte.ru/onedropzendorussia#/club10607242)  
 [Группа на Facebook](http://www.facebook.com/groups/228754007156304/)  
 [Ученики Сёдо Харада Роси в Европе и во всем мире](http://onedropzen.org/)  
-
-Посленднее обновление 09.03.2018
