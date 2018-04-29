@@ -81,3 +81,9 @@ other = "Skip if you are a human"
 
 [lang_select_title]
 other = "Language selector"
+
+[last_modified]
+other = "Last modified"
+
+[created]
+other = "Created"
