@@ -1,7 +1,6 @@
 ---
 title: "Zazen in Moscow"
 date: 2018-04-22T00:41:21+03:00
-lastmod: 2018-04-25T00:41:21+03:00
 slug: "zazen-in-moscow"
 ---
 
