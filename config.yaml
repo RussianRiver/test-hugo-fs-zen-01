@@ -2,35 +2,37 @@
 #title: "Дружеские посиделки. Сайт про Дзадзэн"
 baseURL: "https://example.org/"
 theme: "zen"
-languageCode: "en-en"
 defaultContentLanguage: "ru"
 metaDataFormat: "yaml"
-
-contact: "friendly.sitting.ru@gmail.com"
 
 languages:
   ru:
     weight: 1
-    title: "Дружеские посиделки. Сайт про Дзадзэн"
+    title: "Сайт про Дзадзэн"
+    languageCode: "ru-ru"
+    footer: "Сайт сгенерирован с помощью [Hugo](https://gohugo.io/) и [Zen theme](https://github.com/frjo/hugo-theme-zen). Спасибо авторам!"
     params:
       LanguageName: "Русский"
-      languageCode: "ru-ru"
+      dateformat: "2 January, 2006"
   en:
-    title: "Friendly sitting. Wedsite about ZaZen"
     weight: 2
+    title: "Wedsite about ZaZen"
+    languageCode: "en-en"
+    footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen), thanks to their authors for great work!"
     params:
       LanguageName: "English"
       languageCode: "en-us"
+      dateformat: "2 January, 2006"
 
 pluralizelisttitles: false
 removePathAccents: true
 paginate: 10
 paginatePath: "page"
 rssLimit: 20
-author:
-  name: "Your Name"
-  url: "https://example.org/somepage"
-  avatar: "path/to/some-image.jpg"
+#author:
+#  name: "Your Name"
+#  url: "https://example.org/somepage"
+#  avatar: "path/to/some-image.jpg"
 
 outputs:
   home: ["HTML","RSS", "JSON"]
@@ -46,12 +48,12 @@ params:
   contact: "friendly.sitting.ru@gmail.com"
   #copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   description: "The zen theme for Hugo example site."
-  dateformat: "2 January, 2006"
-  favicon: "icon-64.png"
+
+#  favicon: "icon-64.png"
   feedlinks: false           # Show feed links in the footer.
-  footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
-  icon: "apple-touch-icon-180.png"
-  image: "xdeb-org.jpg"
+
+#  icon: "apple-touch-icon-180.png"
+#  image: "xdeb-org.jpg"
   imageMaxWidth: 400
   jquery: true
   languageDir: "ltr"
@@ -61,4 +63,4 @@ params:
   search: false
   searchSize: 20
   sidebar: true
-  submitted: true
+  submitted: true             # Show author and date information for a post.
