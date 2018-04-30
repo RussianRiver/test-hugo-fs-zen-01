@@ -1,27 +1,31 @@
 ---
 #title: "Дружеские посиделки. Сайт про Дзадзэн"
-baseURL: "https://example.org/"
+baseURL: "https://friendly-sitting.ru/"
 theme: "zen"
 defaultContentLanguage: "ru"
 metaDataFormat: "yaml"
+
+#params:
+#  copyrighttitle: "friendly-sitting.ru"
 
 languages:
   ru:
     weight: 1
     title: "Сайт про Дзадзэн"
     languageCode: "ru-ru"
-    footer: "Сайт сгенерирован с помощью [Hugo](https://gohugo.io/) и [Zen theme](https://github.com/frjo/hugo-theme-zen). Спасибо авторам!"
+    footer: "Сайт сгенерирован [Hugo](https://gohugo.io/) и [Zen theme](https://github.com/frjo/hugo-theme-zen)."
     params:
+      copyrighttitle: "friendly-sitting.ru"
       LanguageName: "Русский"
       dateformat: "2 January, 2006"
   en:
     weight: 2
     title: "Wedsite about ZaZen"
     languageCode: "en-en"
-    footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen), thanks to their authors for great work!"
+    footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
     params:
+      copyrighttitle: "friendly-sitting.ru"
       LanguageName: "English"
-      languageCode: "en-us"
       dateformat: "2 January, 2006"
 
 pluralizelisttitles: false
