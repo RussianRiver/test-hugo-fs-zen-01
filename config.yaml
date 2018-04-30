@@ -54,6 +54,7 @@ params:
 
 #  icon: "apple-touch-icon-180.png"
 #  image: "xdeb-org.jpg"
+  enableGitInfo: true
   imageMaxWidth: 400
   jquery: true
   languageDir: "ltr"
