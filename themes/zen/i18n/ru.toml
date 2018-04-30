@@ -81,3 +81,9 @@ other = "Пропустите если вы человек"
 
 [lang_select_title]
 other = "Выбор языка"
+
+[last_modified]
+other = "Отредактировано"
+
+[created]
+other = "Дата публикации"
