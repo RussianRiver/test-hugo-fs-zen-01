@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "cd themes/zen && ls && npm install && npm install -g gulp-cli && gulp && cd .. && cd .. && ls && hugo"
+command = "cd themes/zen && ls && npm install && gulp && cd .. && cd .. && ls && hugo"
 # command = "hugo"
 
 [context.production.environment]
