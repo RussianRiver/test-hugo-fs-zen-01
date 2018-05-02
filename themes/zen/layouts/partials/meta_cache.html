@@ -1,7 +1,7 @@
 <!--<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}">
 -->
-<link rel="preload" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}"></noscript>
+<link rel="preload" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}" as="style">
+<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}">
 <!--<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}"></noscript>
 -->
 <link rel="stylesheet" href="{{ "/css/print.css" | relURL }}" media="print">
