@@ -1,5 +1,5 @@
 ---
 title: "Речи дхармы"
 date: 2018-05-01T00:57:05+03:00
-draft: false
+draft: true
 ---
