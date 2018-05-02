@@ -63,7 +63,7 @@ params:
   jquery: true
   languageDir: "ltr"
   logo: false
-  mobileMenu: true
+  mobileMenu: false
   poweredby: false
   search: false
   searchSize: 20
