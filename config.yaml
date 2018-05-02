@@ -60,7 +60,7 @@ params:
 #  image: "xdeb-org.jpg"
   enableGitInfo: false
   imageMaxWidth: 400
-  jquery: false
+  jquery: true
   languageDir: "ltr"
   logo: false
   mobileMenu: false
