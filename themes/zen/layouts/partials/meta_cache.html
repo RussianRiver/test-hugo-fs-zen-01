@@ -1,8 +1,10 @@
 <!--<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}">
 -->
+<!--<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}"></noscript>
+-->
 <link rel='preload' href='{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}' as='style' onload='this.onload=null;this.rel="stylesheet"'>
 <noscript><link rel='stylesheet' href='{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}'></noscript>
-<script>
+<!--<script>
 /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -108,6 +110,6 @@
 	}
 }( typeof global !== "undefined" ? global : this ) );
 </script>
-<!--<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}{{ if $.Param "cacheBustCSS" }}?{{ readFile "/public/css/styles.css" | sha1 }}{{ end }}"></noscript>
--->
+
 <link rel="stylesheet" href="{{ "/css/print.css" | relURL }}" media="print">
+-->
