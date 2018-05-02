@@ -1,2 +1,4 @@
 /css/print.css
 Cache-Control: public; max-age=31556926
+*.html
+Cache-Control: public; max-age=15; must-revalidate
